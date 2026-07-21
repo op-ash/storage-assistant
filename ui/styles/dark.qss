@@ -1,0 +1,434 @@
+/* ==========================================================
+   GLOBAL
+========================================================== */
+
+QMainWindow {
+
+    background: #111315;
+
+}
+
+QWidget {
+
+    background: transparent;
+
+    color: #F3F4F6;
+
+    font-family: "Segoe UI Variable", "Segoe UI";
+
+    font-size: 11pt;
+
+}
+
+
+/* ==========================================================
+   SIDEBAR
+========================================================== */
+
+#Sidebar {
+
+    background: #1B1D20;
+
+    border-right: 1px solid #2D3137;
+
+}
+
+
+#SidebarTitle {
+
+    font-size: 18pt;
+
+    font-weight: 700;
+
+    color: white;
+
+    padding-bottom: 10px;
+
+}
+
+
+#SidebarVersion {
+
+    color: #7D8590;
+
+    font-size: 10pt;
+
+    padding-top: 12px;
+
+}
+
+
+/* ==========================================================
+   SIDEBAR BUTTON
+========================================================== */
+
+#SidebarButton {
+
+    background: transparent;
+
+    border: none;
+
+    border-radius: 12px;
+
+    text-align: left;
+
+    padding: 12px 16px;
+
+    color: #AEB4BE;
+
+    font-size: 11pt;
+
+    font-weight: 500;
+
+}
+
+
+#SidebarButton:hover {
+
+    background: #262A30;
+
+    color: white;
+
+}
+
+
+#SidebarButton:checked {
+
+    background: #3B82F6;
+
+    color: white;
+
+    font-weight: 600;
+
+}
+
+
+#SidebarButton:pressed {
+
+    background: #2F6DD5;
+
+}
+
+
+/* ==========================================================
+   LABELS
+========================================================== */
+
+QLabel {
+
+    color: #F3F4F6;
+
+}
+
+
+/* ==========================================================
+   STATUS BAR
+========================================================== */
+
+QStatusBar {
+
+    background: #1B1D20;
+
+    border-top: 1px solid #2D3137;
+
+    color: #B8BEC7;
+
+}
+
+
+/* ==========================================================
+   SCROLLBAR
+========================================================== */
+
+QScrollBar:vertical {
+
+    background: transparent;
+
+    width: 10px;
+
+    margin: 2px;
+
+}
+
+
+QScrollBar::handle:vertical {
+
+    background: #424850;
+
+    border-radius: 5px;
+
+}
+
+
+QScrollBar::handle:vertical:hover {
+
+    background: #5B6470;
+
+}
+
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+
+    height: 0px;
+
+}
+
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+
+    background: transparent;
+
+}
+
+
+/* ==========================================================
+   PUSH BUTTON (GENERAL)
+========================================================== */
+
+QPushButton {
+
+    background: #3B82F6;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 10px 18px;
+
+}
+
+
+QPushButton:hover {
+
+    background: #4B93FF;
+
+}
+
+
+QPushButton:pressed {
+
+    background: #2F6DD5;
+
+}
+
+
+/* ==========================================================
+   LINE EDIT
+========================================================== */
+
+QLineEdit {
+
+    background: #1E2126;
+
+    border: 1px solid #34383F;
+
+    border-radius: 10px;
+
+    padding: 8px;
+
+}
+
+
+QLineEdit:focus {
+
+    border: 1px solid #3B82F6;
+
+}
+
+
+/* ==========================================================
+   COMBO BOX
+========================================================== */
+
+QComboBox {
+
+    background: #1E2126;
+
+    border: 1px solid #34383F;
+
+    border-radius: 10px;
+
+    padding: 8px;
+
+}
+
+
+QComboBox:hover {
+
+    border: 1px solid #3B82F6;
+
+}
+
+
+/* ==========================================================
+   STACKED PAGE PLACEHOLDER
+========================================================== */
+
+QStackedWidget {
+
+    background: #111315;
+
+}
+
+/* ==========================================================
+   PAGE TITLES
+========================================================== */
+
+#PageTitle {
+
+    font-size: 24pt;
+
+    font-weight: 700;
+
+}
+
+
+/* ==========================================================
+   STORAGE CARD
+========================================================== */
+
+
+#CardTitle {
+
+    font-size: 16pt;
+
+    font-weight: 700;
+
+}
+
+
+#CardSubtitle {
+
+    color: #AEB4BE;
+
+}
+
+
+QProgressBar {
+
+    height: 12px;
+
+    border-radius: 6px;
+
+    background: #2A2E35;
+
+    border: none;
+
+}
+
+
+QProgressBar::chunk {
+
+    background: #3B82F6;
+
+    border-radius: 6px;
+
+}
+
+/* ==========================================================
+   STORAGE OVERVIEW CARD
+========================================================== */
+
+
+#CardTitle {
+
+    font-size: 18pt;
+
+    font-weight: 700;
+
+}
+
+
+#CardSubtitle {
+
+    color: #9098A4;
+
+}
+
+
+#DriveTitle {
+
+    font-size: 13pt;
+
+    font-weight: 600;
+
+}
+
+
+#StorageValue {
+
+    font-size: 11pt;
+
+    color: #C8CDD5;
+
+}
+
+
+#PrimaryButton {
+
+    min-height: 40px;
+
+    min-width: 160px;
+
+}
+
+/* ==========================================================
+   SAFE CLEANUP CARD
+========================================================== */
+
+#CleanupSize {
+
+    font-size: 16pt;
+
+    font-weight: 700;
+
+    color: #10B981;
+
+}
+
+
+#CleanupValue {
+
+    color: #AEB4BE;
+
+}
+
+
+#SecondaryButton {
+
+    background: #262A30;
+
+    color: white;
+
+    min-width: 90px;
+
+    min-height: 34px;
+
+    border-radius: 8px;
+
+}
+
+
+#SecondaryButton:hover {
+
+    background: #343A43;
+
+}
+
+/* ==========================================================
+   BASE CARD
+========================================================== */
+
+#BaseCard {
+
+    background: #1B1D20;
+
+    border: 1px solid #2E3136;
+
+    border-radius: 18px;
+
+}
